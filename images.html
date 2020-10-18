@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Tell the browser to be responsive to screen width -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Favicon icon -->
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+<title>Admin Pro Admin Template - The Ultimate Bootstrap 4 Admin Template</title>
+<!-- Bootstrap Core CSS -->
+<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="../assets/plugins/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
+<link href="css/pages/stylish-tooltip.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<!-- page css -->
+<link href="css/pages/user-card.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+	
+	
+<style>
+/* Hide the browser's default checkbox */
+html body .bg-inverse1 {
+  background-color: #474644; }
+.btn-thai_h,
+.btn-thai_h.disabled {
+  background: #009D79;
+  color: #ffffff;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 157, 121, 0.14), 0 3px 1px -2px rgba(0, 157, 121, 0.2), 0 1px 5px 0 rgba(0, 157, 121, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 157, 121, 0.14), 0 3px 1px -2px rgba(0, 157, 121, 0.2), 0 1px 5px 0 rgba(0, 157, 121, 0.12);
+  border: 1px solid #009D79;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
+  .btn-thai_h:hover,
+  .btn-thai_h.disabled:hover {
+    background: #009D79;
+    color: #ffffff;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(0, 157, 121, 0.42), 0 4px 23px 0 rgba(0, 157, 121, 0.12), 0 8px 10px -5px rgba(0, 157, 121, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(0, 157, 121, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 157, 121, 0.2);
+    border: 1px solid #009D79; }
+  .btn-thai_h.active, .btn-thai_h:active, .btn-thai_h:focus,
+  .btn-thai_h.disabled.active,
+  .btn-thai_h.disabled:active,
+  .btn-thai_h.disabled:focus {
+    background: #009D79;
+    color: #ffffff;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(0, 157, 121, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 157, 121, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(0, 157, 121, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 157, 121, 0.2);
+    border-color: transparent; }
+</style>	
+	
+	
+	
+	
+	
+<body class="fix-header card-no-border fix-sidebar">
+<!-- ============================================================== --> 
+<!-- Preloader - style you can find in spinners.css --> 
+<!-- ============================================================== -->
+<div class="preloader">
+  <div class="loader">
+    <div class="loader__figure"></div>
+    <p class="loader__label">Admin Pro</p>
+  </div>
+</div>
+<!-- ============================================================== --> 
+<!-- Main wrapper - style you can find in pages.scss --> 
+<!-- ============================================================== -->
+<div id="main-wrapper"> 
+  <!-- ============================================================== --> 
+  <!-- Topbar header - style you can find in pages.scss --> 
+  <!-- ============================================================== -->
+  <header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-light"> 
+      <!-- ============================================================== --> 
+      <!-- Logo --> 
+      <!-- ============================================================== -->
+      <div class="navbar-header"> <a class="navbar-brand" href="index.html"> 
+        <!-- Logo icon --><b> 
+        <!--You can put here icon as well // <i class="wi wi-sunset"></i> //--> 
+        <!-- Dark Logo icon --> 
+        <img src="images/logo.png" alt="homepage" class="dark-logo" /> 
+        <!-- Light Logo icon --> 
+        <img src="images/logo-light-icon.png" alt="homepage" class="light-logo" /> </b> 
+        <!--End Logo icon --> 
+        <!-- Logo text --></a> </div>
+      <!-- ============================================================== --> 
+      <!-- End Logo --> 
+      <!-- ============================================================== -->
+      <div class="navbar-collapse"> 
+        <!-- ============================================================== --> 
+        <!-- toggle and nav items --> 
+        <!-- ============================================================== -->
+        <ul class="navbar-nav mr-auto">
+          <!-- This is  -->
+          <li class="nav-item hidden-sm-down"></li>
+        </ul>
+        <!-- ============================================================== --> 
+        <!-- User profile and search --> 
+        <!-- ============================================================== -->
+        <ul class="navbar-nav my-lg-0">
+          <!-- ============================================================== --> 
+          <!-- Search --> 
+          <!-- ============================================================== -->
+          <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
+            <form class="app-search">
+              <input type="text" class="form-control" placeholder="What would you like to learn today?">
+              <a class="srh-btn"><i class="ti-close"></i></a>
+            </form>
+          </li>
+          <li class="nav-item"> <a class="nav-link waves-effect waves-dark">
+            <button type="button" class="btn waves-effect waves-light btn-outline-secondary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">เข้าสู่ระบบ</button>
+            </a>
+            <div class="modal fade" id="exampleModal" tabindex="10" role="dialog" aria-labelledby="exampleModalLabel1">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel1">เข้าสู่ระบบ</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form p-t-20">
+                      <div class="form-group">
+                        <label for="exampleInputuname">User Name</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-user"></i> </span> </div>
+                          <input type="text" class="form-control" id="exampleInputuname" placeholder="Username">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd1">Password</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-lock"></i> </span> </div>
+                          <input type="password" class="form-control" id="pwd1" placeholder="Enter email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="checkbox checkbox-success">
+                          <input id="checkbox1" type="checkbox">
+                          <label for="checkbox1"> Remember me </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
+                      <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link">
+            <button type="button" class="btn btn-thai_h" data-toggle="modal" data-target="#exampleModal1" data-whatever="@fat">ลงทะเบียน</button>
+            </a>
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel1">ลงทะเบียน</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form p-t-20">
+                      <div class="form-group">
+                        <label for="exampleInputuname">User Name</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-user"></i> </span> </div>
+                          <input type="text" class="form-control" id="exampleInputuname" placeholder="Username">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-email"></i> </span> </div>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd1">Password</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-lock"></i> </span> </div>
+                          <input type="password" class="form-control" id="pwd1" placeholder="Enter email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd2">Confirm Password</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"> <i class="ti-lock"></i> </span> </div>
+                          <input type="password" class="form-control" id="pwd2" placeholder="Enter email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="checkbox checkbox-success">
+                          <input id="checkbox1" type="checkbox">
+                          <label for="checkbox1"> Remember me </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
+                      <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- ============================================================== --> 
+  <!-- End Topbar header --> 
+  <!-- ============================================================== --> 
+  <!-- ============================================================== --> 
+  <!-- Page wrapper  --> 
+  <!-- ============================================================== -->
+  <div class="page-wrapper">
+    <div style="background-image:url(images/bg.jpg); width:100%; padding:100px">
+      <div class="container-fluid r-aside">
+        <div class="col-lg-6">
+          <div style="vertical-align:middle">
+            <h1 style="color:#FFF; font-weight:600">การเรียนรู้ยอดนิยม
+</h1>
+            <h4 style="color:#FFF;">รับหลักสูตรที่ผู้เรียนชื่นชอบจากเพียง THB360 จนถึง 27 กันยายน 23.59 น. PDT</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================== --> 
+    <!-- visit charts--> 
+    <!-- ============================================================== -->
+    <div class="container-fluid r-aside">
+      <div class="row el-element-overlay">
+        <div class="col-md-12">
+          <h4 class="card-title">หลักสูตรอบรม</h4>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card"><span class="mytooltip tooltip-effect-4"><span class="tooltip-item">
+            <div class="el-card-item">
+              <div class="el-card-avatar el-overlay-1"> <img src="../assets/images/users/1.jpg" alt="user" />
+                <div class="el-overlay"> </div>
+              </div>
+              <div class="el-card-content">
+                <h3 class="box-title">Genelia Deshmukh</h3>
+                <small>Managing Director</small> <br/>
+              </div>
+            </div></span>
+            <span class="tooltip-content clearfix"> <img src="images/bar2.jpg" />  <span class="tooltip-text" ><h1>Also known</h1><span class="badge badge-warning ml-auto">New</span> <small>การพัฒนา</small><p>Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</p><button type="button" class="btn waves-effect waves-light btn-outline-secondary">เรียนหลักสูตรนี้</button></span> </span></span> </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card"><span class="mytooltip tooltip-effect-4"><span class="tooltip-item">
+            <div class="el-card-item">
+              <div class="el-card-avatar el-overlay-1"> <img src="../assets/images/users/2.jpg" alt="user" />
+                <div class="el-overlay"> </div>
+              </div>
+              <div class="el-card-content">
+                <h3 class="box-title">Genelia Deshmukh</h3>
+                <small>Managing Director</small> <br/>
+              </div>
+            </div></span>
+            <span class="tooltip-content clearfix"> <img src="images/bar2.jpg" />  <span class="tooltip-text" ><h1>Also known</h1><span class="badge badge-warning ml-auto">New</span> <small>การพัฒนา</small><p>Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</p><button type="button" class="btn waves-effect waves-light btn-outline-secondary">เรียนหลักสูตรนี้</button></span> </span></span> </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card"><span class="mytooltip tooltip-effect-4"><span class="tooltip-item">
+            <div class="el-card-item">
+              <div class="el-card-avatar el-overlay-1"> <img src="../assets/images/users/3.jpg" alt="user" />
+                <div class="el-overlay"> </div>
+              </div>
+              <div class="el-card-content">
+                <h3 class="box-title">Genelia Deshmukh</h3>
+                <small>Managing Director</small> <br/>
+              </div>
+            </div></span>
+            <span class="tooltip-content clearfix"> <img src="images/bar2.jpg" />  <span class="tooltip-text" ><h1>Also known</h1><span class="badge badge-warning ml-auto">New</span> <small>การพัฒนา</small><p>Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</p><button type="button" class="btn waves-effect waves-light btn-outline-secondary">เรียนหลักสูตรนี้</button></span> </span></span> </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card"><span class="mytooltip tooltip-effect-4"><span class="tooltip-item">
+            <div class="el-card-item">
+              <div class="el-card-avatar el-overlay-1"> <img src="../assets/images/users/4.jpg" alt="user" />
+                <div class="el-overlay"> </div>
+              </div>
+              <div class="el-card-content">
+                <h3 class="box-title">Genelia Deshmukh</h3>
+                <small>Managing Director</small> <br/>
+              </div>
+            </div></span>
+            <span class="tooltip-content clearfix"> <img src="../assets/images/tooltip/bar2.jpg" />  <span class="tooltip-text" ><h1>Also known</h1><span class="badge badge-warning ml-auto">New</span> <small>การพัฒนา</small><p>Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</p><button type="button" class="btn waves-effect waves-light btn-outline-secondary">เรียนหลักสูตรนี้</button></span> </span></span> </div>
+        </div>
+      </div>
+      <!-- ============================================================== --> 
+      <!-- End Page Content --> 
+      <!-- ============================================================== --> 
+    </div>
+    <!-- ============================================================== --> 
+    <!-- End Container fluid  --> 
+    <!-- ============================================================== --> 
+  </div>
+  <!-- ============================================================== --> 
+  <!-- End Page wrapper  --> 
+  <!-- ============================================================== --> 
+</div>
+<!-- ============================================================== --> 
+<!-- footer --> 
+<!-- ============================================================== --> 
+
+<!-- Row  -->
+<footer class="bg-info text-muted" style="color:#67757c; padding:17px 15px; background-image:url(images/bg.jpg)">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3">
+        <div style="text-align:left;">
+          <div style="padding:15px">
+            <div class="d-flex"> <img src="images/logo_white.png" alt="homepage" class="dark-logo" /> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div style="text-align:left;">
+          <div style="padding:15px">
+            <div class="d-flex">
+              <div class="align-self-center" style="color:#FFF">
+                <h5 style="color:#FFF">อาคารศูนย์เรียนรู้สุขภาวะ</h5>
+                <h6 class="text-muted m-t-10 m-b-0 sl-date">เลขที่ 99/8 ซอยงามดูพลี แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพฯ 10120</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div style="text-align:left;">
+          <div style="padding:15px">
+            <div class="d-flex">
+              <div class="align-self-center">
+                <h5 style="color:#FFF"><i class="mdi mdi-phone"></i> <a href="tel:026700461" style="color:#FFF">02-343-1500</a></h5>
+                <h5 style="color:#FFF"><i class="mdi mdi-fax"></i> <a href="tel:026700462" style="color:#FFF">02-343-1551</a></h5>
+                <h5 style="color:#FFF"><i class="mdi mdi-email"></i> <a href="mailto:info@thaihealth.or.th" style="color:#FFF">info@thaihealth.or.th</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div style="text-align:left;">
+          <div style="padding:15px">
+            <div class="d-flex">
+              <div class="align-self-center">
+                <h5 style="color:#FFF"><a href="/home" style="color:#FFF"><i class="fa fa-angle-right"></i> หน้าหลัก</a></h5>
+                <h5 style="color:#FFF"><a href="/home/about" style="color:#FFF"><i class="fa fa-angle-right"></i> เกี่ยวกับเรา</a></h5>
+                <h5 style="color:#FFF"><a href="/home/faq" style="color:#FFF"><i class="fa fa-angle-right"></i> คำถามที่พบบ่อย</a></h5>
+                <h5 style="color:#FFF"><a href="/home/privacy_policy" style="color:#FFF"><i class="fa fa-angle-right"></i> นโยบายความเป็นส่วนตัว</a></h5>
+                <h5 style="color:#FFF"><a href="/home/contact_us" style="color:#FFF"><i class="fa fa-angle-right"></i> ติดต่อเรา</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================================== --> 
+      <!-- End PAge Content --> 
+      <!-- ============================================================== --> 
+      
+    </div>
+    <!-- ============================================================== --> 
+    <!-- End Container fluid  --> 
+    <!-- ============================================================== --> 
+    
+  </div>
+</footer>
+<footer class="bg-inverse1 text-muted" style="padding:17px 15px; text-align:center">© Thai Health
+  </div>
+</footer>
+<!-- ============================================================== --> 
+<!-- End footer --> 
+<!-- ============================================================== --> 
+
+<!-- ============================================================== --> 
+<!-- End Wrapper --> 
+<!-- ============================================================== --> 
+<!-- ============================================================== --> 
+<!-- All Jquery --> 
+<!-- ============================================================== --> 
+<script src="../assets/plugins/jquery/jquery.min.js"></script> 
+<!-- Bootstrap tether Core JavaScript --> 
+<script src="../assets/plugins/bootstrap/js/popper.min.js"></script> 
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- slimscrollbar scrollbar JavaScript --> 
+<script src="js/perfect-scrollbar.jquery.min.js"></script> 
+<!--Wave Effects --> 
+<script src="js/waves.js"></script> 
+<!--stickey kit --> 
+<script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script> 
+<!--Custom JavaScript --> 
+<script src="js/custom.min.js"></script> 
+<!-- ============================================================== --> 
+<!-- This page plugins --> 
+<!-- ============================================================== --> 
+<!--sparkline JavaScript --> 
+<script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script> 
+<!--morris JavaScript --> 
+<script src="../assets/plugins/chartist-js/dist/chartist.min.js"></script> 
+<script src="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script> 
+<!--c3 JavaScript --> 
+<script src="../assets/plugins/d3/d3.min.js"></script> 
+<script src="../assets/plugins/c3-master/c3.min.js"></script> 
+<!-- Popup message jquery --> 
+<script src="../assets/plugins/toast-master/js/jquery.toast.js"></script> 
+<!-- Chart JS --> 
+<script src="js/dashboard1.js"></script> 
+<!-- ============================================================== --> 
+<!-- Style switcher --> 
+<!-- ============================================================== --> 
+<script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+</html>
